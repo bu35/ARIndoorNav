@@ -1,0 +1,234 @@
+{
+  "destination" : {
+    "bathroom" : {
+      "beacon_name" : "pi",
+      "destination" : "bathroom",
+      "node_count" : 3,
+      "nodes" : {
+        "index" : [ {
+          "type" : "start",
+          "x_offset" : 0,
+          "y_offset" : 0.5,
+          "z_offset" : 0.2
+        }, {
+          "type" : "intermediate",
+          "x_offset" : -3.3,
+          "y_offset" : 0,
+          "z_offset" : 0
+        }, {
+          "type" : "destination",
+          "x_offset" : 0,
+          "y_offset" : 1.3,
+          "z_offset" : 0
+        } ]
+      }
+    },
+    "door" : {
+      "beacon_name" : "pi",
+      "destination" : "door",
+      "node_count" : 2,
+      "nodes" : {
+        "index" : [ {
+          "type" : "start",
+          "x_offset" : 0,
+          "y_offset" : 0.5,
+          "z_offset" : 0.2
+        }, {
+          "type" : "destination",
+          "x_offset" : -3,
+          "y_offset" : 0,
+          "z_offset" : 0
+        } ]
+      }
+    },
+    "stairs" : {
+      "beacon_name" : "pi",
+      "destination" : "stairs",
+      "node_count" : 2,
+      "nodes" : {
+        "index" : [ {
+          "type" : "start",
+          "x_offset" : 0,
+          "y_offset" : 0.5,
+          "z_offset" : 0.2
+        }, {
+          "type" : "destination",
+          "x_offset" : -6,
+          "y_offset" : 0,
+          "z_offset" : 0
+        } ]
+      }
+    }
+  },
+  "destination_list" : [ {
+    "name" : "Bathroom"
+  }, {
+    "name" : "Stairs"
+  }, {
+    "name" : "Door"
+  } ],
+  "users" : {
+    "CFkQE3ouaEMVpCmJ7qsJtRwGLMb2" : {
+      "birthday" : "21/55/5484",
+      "email" : "ha@gmail.com",
+      "first_name" : "Bryan",
+      "last_name" : "Ung",
+      "phone" : "(515) 452-5154",
+      "username" : "hah"
+    },
+    "SQLrRGTLRhXPAOgvllL2CgV8Ncu1" : {
+      "birthday" : "11/18/1998",
+      "destination" : {
+        "True" : {
+          "beacon_name" : "pi",
+          "destination" : "True",
+          "node_count" : 3,
+          "nodes" : {
+            "index" : [ {
+              "type" : "start",
+              "x_offset" : -0.05207241326570511,
+              "y_offset" : 0.2891448438167572,
+              "z_offset" : -0.05392094701528549
+            }, {
+              "type" : "intermediate",
+              "x_offset" : -0.04855737090110779,
+              "y_offset" : 0.14519190788269043,
+              "z_offset" : -0.07064490020275116
+            }, {
+              "type" : "destination",
+              "x_offset" : -0.02109527587890625,
+              "y_offset" : 0.14732670783996582,
+              "z_offset" : -0.04979925602674484
+            } ]
+          }
+        },
+        "bathroom" : {
+          "beacon_name" : "1",
+          "destination" : "bathroom",
+          "node_count" : 12,
+          "nodes" : {
+            "index" : [ {
+              "type" : "start",
+              "x_offset" : 0.09723040461540222,
+              "y_offset" : 0.7142276763916016,
+              "z_offset" : -0.48907068371772766
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.9972234964370728,
+              "y_offset" : -0.04759758710861206,
+              "z_offset" : -0.10973700881004333
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.8625588417053223,
+              "y_offset" : 0.08881837129592896,
+              "z_offset" : -0.05687153339385986
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.4711620807647705,
+              "y_offset" : 0.07987546920776367,
+              "z_offset" : 0.010803937911987305
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 1.0273923873901367,
+              "y_offset" : 0.08044081926345825,
+              "z_offset" : -0.3724362850189209
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.8579659461975098,
+              "y_offset" : 0.03426980972290039,
+              "z_offset" : -0.05000925064086914
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.89068603515625,
+              "y_offset" : -0.0626685619354248,
+              "z_offset" : -0.022195100784301758
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.7778348922729492,
+              "y_offset" : 0.012582063674926758,
+              "z_offset" : 0.006467223167419434
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.6545281410217285,
+              "y_offset" : -0.15335559844970703,
+              "z_offset" : -0.09457969665527344
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.018848419189453125,
+              "y_offset" : -1.0349268913269043,
+              "z_offset" : -0.15218079090118408
+            }, {
+              "type" : "intermediate",
+              "x_offset" : -0.2147068977355957,
+              "y_offset" : -1.2888246774673462,
+              "z_offset" : -0.13086307048797607
+            }, {
+              "type" : "destination",
+              "x_offset" : -0.05453300476074219,
+              "y_offset" : -0.0982738733291626,
+              "z_offset" : -0.06200242042541504
+            } ]
+          }
+        },
+        "yesss" : {
+          "beacon_name" : "pi",
+          "destination" : "yesss",
+          "node_count" : 9,
+          "nodes" : {
+            "index" : [ {
+              "type" : "start",
+              "x_offset" : 0.0102528166025877,
+              "y_offset" : 0.16737669706344604,
+              "z_offset" : -0.0488734170794487
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.006271781399846077,
+              "y_offset" : 0.04598069190979004,
+              "z_offset" : -0.045027922838926315
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.007752688601613045,
+              "y_offset" : 0.07290734350681305,
+              "z_offset" : -0.05670056492090225
+            }, {
+              "type" : "intermediate",
+              "x_offset" : -0.003911683335900307,
+              "y_offset" : 0.037754952907562256,
+              "z_offset" : -0.01766122877597809
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.0486222542822361,
+              "y_offset" : 0.052519381046295166,
+              "z_offset" : -0.02449136972427368
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.028506681323051453,
+              "y_offset" : 0.018418848514556885,
+              "z_offset" : -0.007684811949729919
+            }, {
+              "type" : "intermediate",
+              "x_offset" : 0.009960241615772247,
+              "y_offset" : 6.924271583557129E-4,
+              "z_offset" : 0.0023933053016662598
+            }, {
+              "type" : "intermediate",
+              "x_offset" : -0.0015256255865097046,
+              "y_offset" : -0.005157381296157837,
+              "z_offset" : 0.003867119550704956
+            }, {
+              "type" : "destination",
+              "x_offset" : -0.024926669895648956,
+              "y_offset" : -0.027005702257156372,
+              "z_offset" : 0.00987955927848816
+            } ]
+          }
+        }
+      },
+      "email" : "bryan111@gmail.com",
+      "first_name" : "Bryan",
+      "last_name" : "Ung",
+      "phone" : "(215) 555-5555",
+      "username" : "bryan111"
+    }
+  }
+}

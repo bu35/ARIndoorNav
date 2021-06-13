@@ -1,0 +1,19 @@
+# XCode
+xcuserdata/
+
+# Finder
+.DS_Store
+.svn
+*.swp
+
+# Cocoapods
+/Pods/
+Podfile.lock
+
+#node
+node_modules/
+package-lock.json
+serviceAccountKey.json
+
+#Firebase
+GoogleService-Info.plist

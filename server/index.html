@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BEST OF THE BEST AT SAP</title>
+<script type="text/javascript">
+	function go(){
+		var start = document.getElementById("start").value
+		var dest = document.getElementById("dest").value
+		var URL = "http://localhost:8080/Navigation"
+		$.ajax({
+			type: "GET",
+			url: URL,
+			data: {
+				'start': start,
+				'dest': dest
+			},
+			dataType: "html",
+			success : function(msg){
+				msg = JSON.parse(msg);
+				console.log("Going from " + start +" to " +dest)
+				console.log(msg)
+				alert(JSON.stringify(msg));
+				var dot_num = msg.moves.length;
+				console.log("Number of nodes: " + dot_num)
+				for (i = 0; i < msg.moves.length; i++) {
+  					console.log(msg.moves[i])
+				}
+			
+		},
+			error: function(jgXHR, textStatus, errorThrown) {
+				alert("Error: " + textStatus + " " + errorThrown);
+			}
+			
+		})
+	}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+</head>
+<body>
+<input type="text" id="start" placeholder="Enter your starting point">
+<br>
+<input type="text" id="dest" placeholder="Enter your destination">
+<br>
+<button onclick="go()">Go!</button>
+<div id="out"></div>
+</body>
+</html>

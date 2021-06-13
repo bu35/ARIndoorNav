@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/ARSceneViewDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/ContainerController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../SAPNav/Controller/Extensions.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../SAPNav/Controller/HomeController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../SAPNav/Controller/LoginController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/ManageMapsController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/MenuController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/SearchController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../SAPNav/Controller/SignUpController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/BryanUng/Desktop/Repos/SAPNav/SAPNav/Controller/ViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
